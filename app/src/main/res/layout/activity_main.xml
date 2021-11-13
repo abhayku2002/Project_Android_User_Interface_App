@@ -1,0 +1,45 @@
+
+<RelativeLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wall" />
+    <TextView
+        android:id="@+id/papa_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="20dp"
+        android:textSize="36sp"
+        android:text="FROM PAPA" />
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:text="button" />
+
+    <TextView
+        android:id="@+id/baba_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#16120c"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:textSize="36sp"
+        android:layout_margin="20dp"
+        android:text="HAPPY BIRTHDAY,BABA" />
+
+</RelativeLayout>
