@@ -1,2 +1,2 @@
-# Udacity-Android_Basics-User_Interface
+# Android_User_Interface_App
 Happy Birthday Card App
